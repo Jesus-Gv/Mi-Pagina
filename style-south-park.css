@@ -1,12 +1,14 @@
 /*esto es un comentario*/
-
+body{
+    background-color: rgb(49, 49, 49);
+}
 .header1 {
     border-radius: 10px;
     background-color: rgb(43, 43, 43);
 }
 
 .fondo_oscuro {
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(105, 105, 105);
     border-radius: 9px;
 }
 
@@ -30,16 +32,22 @@
 
 .selectordeclase {
     text-align: center;
-    color: rgb(16, 51, 51);
+    color: rgb(255, 255, 255);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 }
 
+.botones-usuario{
+    margin-top: -200px;
+    float: right;
+}
+
+
 .botones {
-    border: 4px rgb(8, 8, 129) solid;
+    border: 4px rgb(8, 8, 29) solid;
     border-radius: 8px;
     padding: 8px;
-    background-color: rgb(33, 33, 172);   
+    background-color: rgb(15, 15, 90);   
 }
 
 .botones:hover {
